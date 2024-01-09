@@ -7,7 +7,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 
 .text-primary {
@@ -49,6 +49,7 @@ nav a {
 .header {
     background-color: #fff8f3;
     background-image: url(../images/header_bg.png);
+    /* background-image: url(../images/developer.png); */
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -151,11 +152,72 @@ main section {
 }
 
 .resume-column-title {
-    color:  #474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
+    gap: 50px;
+}
+
+.resume-item {
+    margin: 0px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.resume-item-inst {
+    margin: 10px 0px;
+    color: #474747;
+}
+
+.resume-item-desc {
+    margin: 0px;
+    color: #474747;
+    text-align: justify;
+}
+
+.download-cv {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.social-link a{
+    margin-right: 24px;
+}
+
+
+
+.contact-column {
+    width: 50%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+textarea {
+    display: block;
+    margin-top: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: none;
+    width: 100%;
 }
